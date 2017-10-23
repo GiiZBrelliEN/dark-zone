@@ -10,5 +10,5 @@ app.get('/', (req, res) => {
 
 app.set('port', 3000);
 app.listen(app.get('port'), () => {
-    console.log('==== > Application running on port :: '+app.get('port'));
+    console.log('==== > Genesis is running on port :: '+app.get('port'));
 });
