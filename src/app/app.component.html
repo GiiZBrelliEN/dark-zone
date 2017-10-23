@@ -1,22 +1,3 @@
-<div *ngIf="true" style="position:fixed;top:0px;left:0px;bottom: 0px;right:0px;background-color: black;">
-  <table style="margin:auto;">
-    <tr style="align-content: center; vertical-align: center;">
-      <td>
-        <div style="position: relative; margin-top:230px; margin-left:-20px;">
-          <img src="../assets/images/loading.gif" />
-        </div>
-      </td>
-    </tr>
-  </table>
-</div>
-<div *ngIf="false" style="position:fixed;top:0px;left:0px;bottom: 0px;right:0px;background-color: black;color:rgb(196, 196, 196);">
-  <table style="margin:auto;">
-    <tr style="align-content: center; vertical-align: center;">
-      <td>
-        <div style="position: relative; margin-top:230px; margin-left:-10px;">
-          <p>GIIZBRELLIEN</p>
-        </div>
-      </td>
-    </tr>
-  </table>
-</div>
+<a [routerLink]="['/home',{outlets:{discussion:['25']}}]">GG</a><!--  inout path name in [''] {in outlets} -->
+<a [routerLink]="['/facebook']">FB</a>
+<router-outlet></router-outlet>
